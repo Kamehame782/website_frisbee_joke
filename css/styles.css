@@ -1,0 +1,381 @@
+body{
+    margin:0;
+    padding: 0;
+    border:0;
+    /* font-size: 0px; */
+    background-color: #26a337;
+}
+header{
+    width: 100%;
+    height: 70px;
+}
+#header{
+    display: inline-block;
+    width: 100%;
+    height: 70px;
+    background-color: beige;
+    background: url("../img/kuva.png") no-repeat;
+    background-size: cover;
+    font-size: 0;
+}
+#header li{
+    display: inline;
+    padding: 0px 5px;
+    line-height: 70px;
+}
+#header nav{
+    float: right;
+    margin-right:15px;
+}
+#header ul{
+    margin: 0;
+    padding: 0;
+}
+#header a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    padding: 6px; 
+    background: #8f746c;
+    border-radius: 4px;
+}
+#header a:hover{
+    background: #53423c;
+}
+.active{
+    background: #b35938 !important;
+    color: #b9e63f !important;
+    
+}
+#header img[src="./img/logo.jpg"]{
+    height: 50px;
+    padding:10px;
+    float: left;
+    border-radius: 30px;
+}
+#divider{
+    height: 2px;
+    width: 100%;
+    background-color: #b9e63f;
+    float: left;
+    display: inline-block;
+    font-size: 0px;
+}
+#section_1 img{
+    width: 100%;
+}
+#section_1{
+    font-size: 0;
+    width: 100%;
+    display: inline-block;
+    float: left;
+    text-align: center;
+    position: relative;
+}
+/* #centered{
+    position: absolute;
+    top: 50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    padding: 0;
+    margin: 0;
+    text-decoration: aquamarine;
+    color: #e8491d;
+    font-size: 50px;
+    text-shadow: 3px 3px black;
+} */
+#section_2{
+    display: inline-block;
+    float: left;
+    background-color: #4567d6;
+    margin: auto;
+    overflow: hidden;
+    width: 100%;
+    text-align: center;
+}
+.box{
+    /* width:29%; */
+    /* float:left; */
+    display: inline-block;
+    text-align: center;
+    padding: 2%;
+}
+.box img{
+    height: 100px;
+}
+#footer{
+    padding:20px 0;
+    color:#ffffff;
+    background-color:#26a337;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    width:100%;
+}
+#discs{
+    text-align: center;
+    width: 100%;
+    display: inline-block;
+    /* float: left; */
+}
+#canvas{
+    max-width: 1700px;
+    margin: 0 auto;
+    display: inline-block;
+    text-align: center;
+}
+/* #discs div{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+    height: 200px;
+}
+
+#discs div:hover {
+    border: 1px solid #777;
+}
+
+#discs div img {
+    max-width: 150px;
+    max-height: 130px;
+}
+
+#discs div .desc {
+    padding: 15px;
+    text-align: center;
+} */
+#bag_container{
+    overflow: hidden;
+    /* margin: auto; */
+    /* text-align: center; */
+}
+#bag_left, #bag_right, #bag_bot, #bag_top{
+    text-align: center;
+    /* margin: auto; */
+    /* max-height: 300px; */
+    /* display: inline-block; */
+    /* height: 100%; */
+}
+#bag_left div, #bag_right div, #bag_bot div, #bag_top div{
+    margin:5px 2px;
+    border: 1px solid rgb(221, 63, 200);
+    border-radius: 4px;
+    padding: 5px;
+}
+#bag_left img, #bag_right img, #bag_bot img, #bag_top img{
+    max-height: 50px;
+    max-width: 80px;
+}
+#bag_bot div, #bag_top div{
+    float: left;
+    width: auto;
+}
+#bag_bot, #bag_top{
+    width: 300px;
+}
+
+/* CSS TABLE STYLES */
+.table {
+    /* border-width: 1px; */
+    margin: auto;
+}
+/* .intable {
+    border-width: 0px 1px 0px 0px;
+} */
+.table, .intable {
+    display:table;
+    width:300px;
+    height:300px;
+    background: url("../img/bag.png") no-repeat;
+    background-size: 300px;
+    vertical-align: middle;
+}
+.table_0 {
+    display:table;
+    margin: auto;
+    text-align: center;
+}
+.cell {
+    display:table-cell;
+    /* border-width: 1px; */
+    width: 100px;
+    height: 300px;
+}
+.in-cell {
+    display:table-cell;
+    /* border-width: 1px; */
+    width: 100px;
+    height: 150px;
+}
+.cell-outer {
+    display:table-cell;
+    vertical-align: middle;
+    /* margin: auto; */
+    height: 100%;
+    /* border-width: 1px; */
+}
+.row {
+    display:table-row;
+    height: auto;
+    text-align: center;
+    width: auto;
+    /* margin: auto; */
+    /* vertical-align: middle !important; */
+
+}
+/* .table, .intable, .cell {
+    border-style: solid; */
+    /* border-color: purple;
+} */
+.hovering:hover{
+    background-color: rgba(107, 190, 223, 0.3);
+}
+form input::placeholder{
+    color:grey;
+}
+
+/* #gallery{
+    width: 100%;
+} */
+.column {
+    /* float: left; */
+    width: 25%;
+    padding: 10px;
+    margin:0 auto;
+    display: inline-block;
+    /* width: 100%; */
+    /* height:100%; */
+}
+
+/* Style the images inside the grid */
+.column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+    border-radius: 50px;
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* The expanding image container */
+.container {
+    position: relative;
+    display: none;
+    padding: 10px;
+}
+.container img{
+    border-radius: 10px;
+}
+
+/* Expanding image text */
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+/* Closable button inside the expanded image */
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+/* Discs-osio */
+#bag_container2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell-outer2{
+    display: inline-block;
+    min-width: 200px;
+    max-width: 300px;
+}
+.cell-outer23{
+    display: inline-block;
+    height: 300px;
+    vertical-align: top;
+}
+.cell-outer2 img, .cell-outer23 img{
+    /* width:25%; */
+    /* display: inline-block; */
+}
+.cell-outer2 div{
+    display: inline-block;
+}
+#bag_left2, #bag_right2{
+    min-width:90px;
+    max-width: 300px;
+    height: 100%;
+}
+#bag_left2 div, #bag_right2 div, #bag_bo2 div, #bag_top2 div{
+    margin:5px 2px;
+    border: 1px solid rgb(221, 63, 200);
+    border-radius: 4px;
+    padding: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+#bag_left2 img, #bag_right2 img, #bag_bot2 img, #bag_top2 img{
+    max-height: 50px;
+    max-width: 80px;
+}
+#baggy{
+    display: inline-block;
+    text-align: center;
+    width:300px;
+    height:300px;
+    background: url("../img/bag.png") no-repeat;
+    background-size: 300px;
+}
+#clk_left, #clk_right{
+    width:95px;
+    height: 290px;
+    display: inline-block;
+}
+#middle_wrap{
+    display: inline-block;
+    height: 295px;
+    width: 95px;
+}
+#clk_top, #clk_bot{
+    width:95px;
+    height: 145px;
+    display: inline-block;
+}
+.hovering2:hover{
+    background-color: rgba(107, 190, 223, 0.3);
+}
+/* .sides_container{
+    height: 100%;
+    width:100%;
+    vertical-align: middle;
+    position: relative;
+} */
+#baggy_wrapper{
+    display: inline-block;
+}
+#bag_top2, #bag_bot2{
+    display: inline-block;
+    min-width: 100px;
+}
