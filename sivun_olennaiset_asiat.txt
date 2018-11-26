@@ -1,0 +1,9 @@
+1. Yhden sivun sivusto.
+
+2. Siisti neliosainen rakenne.
+
+4. Valikkoa lukuunottamatta skaalautuva resoluutio.
+
+5. Siisti galleria.
+
+6. Firebase oikeasti käytössä "subatessa". Tarkistaa databasesta onko osoite lisatty ja kuittaa sen. Voi kokeilla :)
